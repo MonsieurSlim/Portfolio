@@ -1,0 +1,151 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	background-repeat: no-repeat;
+	background-position: center;
+	background: -webkit-radial-gradient(gray 5%, black 95%);
+	background: -o-radial-gradient(gray 5%, black 95%);
+	background: -moz-radial-gradient(gray 5%, black 95%);
+	background: radial-gradient(gray 5%, black 95%);
+	text-align: center;
+}
+
+body li {
+	list-style: none;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	color: orange;
+}
+
+
+a {
+	font-family: 'Playfair Display', sans-serif;
+	color: steelblue;
+	text-decoration: none;
+	padding: 10px;
+}
+a:hover {
+	color: green;
+}
+
+img {
+	margin: 20px;
+}
+
+
+.portfolio:hover {
+	box-shadow: 5px 5px 5px black;
+	-webkit-transform: scale(1.2) ;
+}
+
+#navigate a:hover {
+	background-color: black;
+	color: orange;
+	padding: 10px;
+}
+
+
+
+#navigate {
+	font-size: 1.15em;
+	background-color: orange;
+	border-radius: 5px;
+	border-style: none;
+	margin: auto;
+	padding: 10px;
+	width: 50%;
+
+}
+
+#navigate li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+
+#desc {
+	/*background-image: url("../img/IMG_20140619_120440.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: left;
+	color: white;
+	margin: auto;
+	/*height: 300px;*/
+	padding: 50px;
+}
+
+#slim {
+	margin: 0 24%;
+	transition: 0.7s ease-in-out ;
+}
+
+#desc:hover #slim {
+	-webkit-transform: scale(1.2) ;
+}
+
+.profile-photo, .profile_photo{
+	height: 250px;
+	width: 250px;
+}
+.profile_photo {
+	border-radius: 40%;
+}
+.social_icon {
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+	margin: 10px;
+}
+#primary, #secondary {
+	text-align:  left;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	margin: 20px 50px;
+	padding: 20px 50px;
+	border-radius: 5px;
+}
+.portfolio {
+	width: 45%;
+	border-style: solid;
+	border-color: orange;
+	border-width: 5px;
+	margin:  0 2%;
+	float: left;
+	display: block;
+	transition: 0.7s ease-in-out ;
+}
+
+.selected a {
+	color: darkgreen;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone1.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail1.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter2.png');
+}
+
+.contact-info li a{
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	padding-left: 50px;
+}
+#homeLower {
+	clear: both;
+    padding: 20px;
+}
+

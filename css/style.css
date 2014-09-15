@@ -36,8 +36,14 @@ a:hover {
 	color: green;
 }
 
-img:hover {
+img {
+	margin: 20px;
+}
+
+
+.portfolio:hover {
 	box-shadow: 5px 5px 5px black;
+	-webkit-transform: scale(1.2) ;
 }
 
 #navigate a:hover {
@@ -53,8 +59,10 @@ img:hover {
 	background-color: orange;
 	border-radius: 5px;
 	border-style: none;
-	margin: 20px;
+	margin: auto;
 	padding: 10px;
+	width: 50%;
+
 }
 
 #navigate li {
@@ -64,13 +72,23 @@ img:hover {
 
 
 #desc {
-	background-image: url("../img/IMG_20140619_120440.jpg");
+	/*background-image: url("../img/IMG_20140619_120440.jpg");*/
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: left;
 	color: white;
-	height: 300px;
+	margin: auto;
+	/*height: 300px;*/
 	padding: 50px;
+}
+
+#slim {
+	margin: 0 24%;
+	transition: 0.7s ease-in-out ;
+}
+
+#desc:hover #slim {
+	-webkit-transform: scale(1.2) ;
 }
 
 .profile-photo, .profile_photo{
@@ -101,6 +119,8 @@ img:hover {
 	border-width: 5px;
 	margin:  0 2%;
 	float: left;
+	display: block;
+	transition: 0.7s ease-in-out ;
 }
 
 .selected a {
@@ -108,15 +128,15 @@ img:hover {
 }
 
 .contact-info li.phone a {
-	background-image: url('../img/phone.png');
+	background-image: url('../img/phone1.png');
 }
 
 .contact-info li.mail a {
-	background-image: url('../img/mail.png');
+	background-image: url('../img/mail1.png');
 }
 
 .contact-info li.twitter a {
-	background-image: url('../img/twitter.png');
+	background-image: url('../img/twitter2.png');
 }
 
 .contact-info li a{

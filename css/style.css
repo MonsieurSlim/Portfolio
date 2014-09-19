@@ -143,8 +143,11 @@ img {
 }
 
 #galleria li {
-	margin: 2.5%;
+	margin: 0 2.5%;
 	float: left;
+}
+#galleria li p {
+	color: orange;
 }
 
 /*---------------DETAILS PAGE---------------------------*/
@@ -185,4 +188,16 @@ img {
 	padding-left: 50px;
 }
 
+/*------Mobile Responsiveness-------*/
 
+@media screen and (min-width: 556px) {
+	#galleria li:nth-child(3n) {
+		clear: left;
+	}
+	#galleria li:nth-child(5n) {
+		clear: left;
+	}
+	#galleria li:nth-child(6n) {
+		clear: right;
+	}
+}
